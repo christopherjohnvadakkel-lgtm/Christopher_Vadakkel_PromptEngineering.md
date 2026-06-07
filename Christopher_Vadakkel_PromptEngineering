@@ -1,0 +1,292 @@
+# Prompt Engineering Portfolio
+
+Name: Christopher Vadakkel
+
+Date: June 6th 2026
+
+LLM Used: ChatGPT-4
+
+
+
+## Part 1: Prompt Design & Iteration
+
+### 1.1 Scenario A: Technical Explanation
+
+**Goal:** Explain how a nuclear reaction works to a 10-year-old.
+
+#### Initial Prompt
+
+Explain a nuclear Reaction to a 10 year old
+
+####Initial Output : 
+
+A nuclear reaction occurs when the nucleus of an atom changes. This can happen through fission, where an atom splits into smaller atoms, or fusion, where atoms combine. These reactions release large amounts of energy and are used in nuclear power plants and stars.
+
+#### Second Prompt
+
+Explain nuclear reactions to a 10 year old using simple language and an everyday example. Avoid scientific jargon and keep the explanation under 150 words.
+
+####Second Output :
+
+A nuclear reaction is when tiny pieces inside an atom change and release energy. Think about popping popcorn. When heat is added, the kernel changes and releases energy as it pops. Nuclear reactions are much more powerful changes that happen inside very tiny particles. They can create enough energy to power cities or make stars shine.
+
+####Final Prompt :
+
+Act as science teacher that works with 10 years olds and understands them deeply. Explain nuclear reactions to a curious 10 year old who has never studied science before. Use a fun analogy, define atoms in simple terms, explain why energy is released, and describe one real-world example. Keep the explanation engaging, conversational, and under 200 words.
+
+####Final Output :
+
+Imagine everything around you—your toys, your pets, your desk, and even you—is made of tiny building blocks called atoms.
+Inside each atom is a very small center that holds a lot of energy, almost like a tightly wrapped spring.
+A nuclear reaction happens when that tiny center changes. When it changes, some of the stored energy is released, just like a spring suddenly uncoiling.
+One type of nuclear reaction happens in the Sun. Tiny atoms join together, and this releases huge amounts of energy. That energy travels all the way to Earth as sunlight and warmth.
+Another type happens in nuclear power plants, where larger atoms are split apart to produce electricity for homes and schools.
+So, a nuclear reaction is a special change inside an atom that releases a lot of energy. It's one of the reasons the Sun shines and why we can generate electricity in some power plants.
+
+### 1.1 Scenario B: Professional Email
+
+**Goal:** Draft an email declining a job offer politely while expressing continued interest in the company
+
+####Initial Prompt :
+
+Write me an email declining the job politely, but also interested in the company
+####Initial Output :
+
+Subject: Job Offer
+
+Dear Hiring Manager,
+
+Thank you for offering me the job. I appreciate the opportunity, but I have decided not to accept the position.
+
+I am still interested in your company and hope we can stay in touch.
+
+Thank you again.
+
+Best regards,
+
+Christopher
+
+####Second Prompt :
+
+Write a professional email declining a job offer. Thank the hiring manager for their time, explain that I have accepted another opportunity, and express continued interest in the company for future opportunities.
+
+
+
+####Second Output :
+
+Subject: Thank You for the Opportunity
+
+Dear Hiring Manager,
+
+Thank you very much for offering me the position. I truly appreciate the time you spent reviewing my application, interviewing me, and sharing more about the company.
+After careful consideration, I have decided to accept another opportunity. However, I remain very interested in your company and the work your team is doing.
+I hope we can stay connected, and I would be grateful to be considered for future opportunities that may be a good fit.
+Thank you again for your time and consideration.
+
+Best regards, 
+
+Christopher
+
+
+
+####Final Prompt :
+
+
+
+Write a professional and courteous email declining a job offer because I have accepted another opportunity. Thank the hiring team for their time and effort, express genuine appreciation for the offer, and explain that I remain interested in the company and would welcome future opportunities. Use a warm, respectful, and positive tone. Keep the email between 150–200 words.
+
+
+
+#### Final Output
+
+
+
+Subject:Thank You for the Opportunity
+
+
+
+Dear Hiring Manager,
+
+
+
+Thank you very much for offering me the position. I sincerely appreciate the time and effort that you and the team invested throughout the interview process and for the confidence you showed in my abilities.
+
+
+
+After careful consideration, I have decided to accept another opportunity that aligns more closely with my current career goals. As a result, I must respectfully decline your offer.
+
+
+
+This decision was not easy, as I was genuinely impressed by your company's culture, values, and the people I met during the hiring process. I greatly appreciate the opportunity to learn more about the organization.
+
+
+
+I hope to stay connected and would welcome the chance to be considered for future opportunities should our paths cross again.
+
+
+
+Thank you once again for your understanding and consideration. I wish you and the team continued success.
+
+
+
+Kind regards,
+
+
+
+Christopher Vadakkel
+
+
+
+
+
+### 1.1 Scenario C: Creative Content
+
+
+
+**Goal:**Generate a creative marketing tagline for a new eco-friendly water bottle brand
+
+
+
+#### Initial Prompt
+
+
+
+Create a marketing tagline for , Green - Z a water bottle brand.
+
+
+
+#### Initial Output
+
+
+
+Green-Z: The Eco-Friendly Water Bottle.
+
+
+
+#### Second Prompt :
+
+
+
+Create five catchy marketing taglines for Green-Z, an eco-friendly water bottle brand. Focus on sustainability, reducing plastic waste, and staying hydrated.
+
+
+
+#### Second Output
+
+
+
+1. Green-Z: Drink Green, Live Clean.
+
+2. Every Sip Saves the Planet.
+
+3. Hydration with a Greener Purpose.
+
+4. Refill Today, Protect Tomorrow.
+
+5. Choose Green-Z, Choose Change.
+
+
+
+#### Final Prompt :
+
+
+
+You are the top .1% branding expert in India. Create five catchy marketing taglines for Green-Z, an eco-friendly water bottle brand. Focus on sustainability, reducing plastic waste, and staying hydrated. The bottle brand is targeting Gen-Z and the tagline should use their lingo. We want the tag line to be funny, culturally relevant and targeting Gen-Z living in Tier 1 cities
+
+
+
+#### Final Output
+
+
+
+1. Green-Z: Main Character Energy, Zero Plastic Drama.
+
+2. Stay Hydrated. Stay Unbothered. Save the Planet.
+
+3. Refill > Landfill. It's Giving Sustainability Vibes.
+
+4. Your Water Bottle Called—Single-Use Plastic Is Cringe.
+
+5. Sip Responsibly. Flex Sustainably.
+
+
+
+### 1.2 Iteration Documentation
+
+
+
+
+
+#### Scenario A: Technical Explanation
+
+
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+
+|----------|----------|----------|----------|
+
+| V1 | Explain a nuclear Reaction to a 10 year old | N/A | N/A |
+
+
+
+| V2 | Explain nuclear reactions to a 10 year old using simple language and an everyday example. Avoid scientific jargon and keep the explanation under 150 words. | Added a request for simple language, an everyday example, and a word limit while explicitly avoiding jargon. | The output became easier for a child to understand and used a relatable analogy instead of relying on technical terminology. |
+
+
+
+| V3 | Explain nuclear reactions to a curious 10 year old who has never studied science before. Use a fun analogy, define atoms in simple terms, explain why energy is released, and describe one real-world example. Keep the explanation engaging, conversational, and under 200 words. | Added audience context, required definitions of key concepts, requested a real-world example, and specified tone and engagement level. | The output became more educational, engaging, and comprehensive while remaining appropriate for a 10-year-old audience. |
+
+
+
+#### Scenario B: Professional Email
+
+
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+
+|----------|----------|----------|----------|
+
+| V1 | Write me an email declining the job politely, but also interested in the company | N/A | N/A |
+
+
+
+| V2 | Write a professional email declining a job offer. Thank the hiring manager for their time, explain that I have accepted another opportunity, and express continued interest in the company for future opportunities. | Added a professional tone, provided a reason for declining, and requested continued interest in future opportunities. | The email became more transparent, professional, and relationship-focused while maintaining goodwill with the company. |
+
+
+
+| V3 | Write a professional and courteous email declining a job offer because I have accepted another opportunity. Thank the hiring team for their time and effort, express genuine appreciation for the offer, and explain that I remain interested in the company and would welcome future opportunities. Use a warm, respectful, and positive tone. Keep the email between 150–200 words. | Added tone requirements, appreciation for the entire hiring team, a word-count constraint, and stronger emphasis on future opportunities. | The email became warmer, more polished, and more effective at preserving a positive professional relationship. |
+
+
+
+#### Scenario C: Creative Content
+
+
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+
+|----------|----------|----------|----------|
+
+| V1 | Create a marketing tagline for , Green - Z a water bottle brand. | N/A | N/A |
+
+
+
+| V2 | Create five catchy marketing taglines for Green-Z, an eco-friendly water bottle brand. Focus on sustainability, reducing plastic waste, and staying hydrated. | requested multiple taglines, and specified sustainability, plastic reduction, and hydration as key themes. | The output became more creative, relevant to the brand, and provided several options to choose from. |
+
+
+
+| V3 | You are the top .1% branding expert in India. Create five catchy marketing taglines for Green-Z, an eco-friendly water bottle brand. Focus on sustainability, reducing plastic waste, and staying hydrated. The bottle brand is targeting Gen-Z and the tagline should use their lingo. We want the tag line to be funny, culturally relevant and targeting Gen-Z living in Tier 1 cities | Gave a specific seniority of role and Added a specific target audience, required Gen-Z language, requested humor and cultural relevance, and specified an urban demographic. | The taglines became more audience-focused, memorable, and aligned with the brand's intended market and communication style. |
+
+
+
+### 1.3 Role and Context Usage
+
+
+
+In Scenario B (Professional Email), role assignment and context setting significantly improved the quality of the output. By specifying that the email should be professional and courteous, the model adopted the appropriate tone for communicating with a hiring manager. Providing context that the offer was being declined because another opportunity had been accepted helped generate a more realistic and transparent response.
+
+
+
+In **Scenario C (Creative Content)**, adding context about the target audience (Gen-Z consumers living in Tier 1 cities) and specifying the desired tone (funny, culturally relevant, and using Gen-Z lingo) resulted in much more engaging and effective taglines. The additional context helped the model create content that was tailored to the intended audience rather than producing generic marketing slogans.
+
+
+
+Overall, role assignment guided the style and tone of the responses, while context setting provided the model with the background information needed to generate more relevant, targeted, and higher-quality outputs.
